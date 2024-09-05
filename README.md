@@ -22,86 +22,78 @@ This project performs comprehensive sales data analysis using Python, Excel, and
 ├── README.md                # Project documentation
 └── .gitignore               # Git ignore file
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main.py Overview</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        .section {
-            background: #fff;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .section ul {
-            list-style: disc;
-            margin-left: 20px;
-        }
-        .section ul li {
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="section">
-            <h1>main.py Overview</h1>
-            <p>The <code>main.py</code> script is the core of the project, responsible for:</p>
-            <ul>
-                <li>Initializing the Streamlit dashboard</li>
-                <li>Loading and processing the Excel data</li>
-                <li>Generating visualizations</li>
-                <li>Handling user interactions</li>
-            </ul>
-        </div>
+# main.py Overview
 
-        <div class="section">
-            <h2>Visualization Techniques</h2>
-            <ul>
-                <li><strong>Bar Chart:</strong> Displays sales performance across different categories.</li>
-                <li><strong>Pie Chart:</strong> Shows the distribution of sales across various segments.</li>
-                <li><strong>Line Chart:</strong> Tracks sales trends over time.</li>
-            </ul>
-        </div>
+The `main.py` script is the core of the project, responsible for:
 
-        <div class="section">
-            <h2>Sorting Mechanisms</h2>
-            <ul>
-                <li><strong>Alphabetical Sorting:</strong> Sorts data alphabetically by product name or category.</li>
-                <li><strong>Numerical Sorting:</strong> Sorts data based on numerical values such as sales amount or quantity.</li>
-                <li><strong>Date Sorting:</strong> Orders data chronologically.</li>
-            </ul>
-        </div>
+- Initializing the Streamlit dashboard
+- Loading and processing the Excel data
+- Generating visualizations
+- Handling user interactions
 
-        <div class="section">
-            <h2>Error Handling</h2>
-            <p>The project includes mechanisms to handle:</p>
-            <ul>
-                <li><strong>File Not Found Error:</strong> Checks if the Excel file is present in the specified directory before loading.</li>
-                <li><strong>Data Type Errors:</strong> Validates data types in the Excel file for compatibility with the analysis.</li>
-                <li><strong>User Input Validation:</strong> Ensures that user inputs for sorting and chart selection are valid.</li>
-            </ul>
-        </div>
-    </div>
-</body>
-</html>
+## Visualization Techniques
+
+- **Bar Chart:** Displays sales performance across different categories.
+- **Pie Chart:** Shows the distribution of sales across various segments.
+- **Line Chart:** Tracks sales trends over time.
+
+## Sorting Mechanisms
+
+- **Alphabetical Sorting:** Sorts data alphabetically by product name or category.
+- **Numerical Sorting:** Sorts data based on numerical values such as sales amount or quantity.
+- **Date Sorting:** Orders data chronologically.
+
+## Error Handling
+
+The project includes mechanisms to handle:
+
+- **File Not Found Error:** Checks if the Excel file is present in the specified directory before loading.
+- **Data Type Errors:** Validates data types in the Excel file for compatibility with the analysis.
+- **User Input Validation:** Ensures that user inputs for sorting and chart selection are valid.
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+    ```
+    git clone https://github.com/hit2421/Internship-Project.git
+    cd Adidas Sales Dashboard
+    ```
+
+2. **Install the dependencies:**
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. **Run the application:**
+
+    ```bash
+    streamlit run .\app.py
+    ```
+
+## Usage
+
+1. Place your Excel data file in the `data` directory.
+2. Run the application using Streamlit.
+3. Interact with the dashboard to explore various sales metrics, apply sorting, and view different charts.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute:
+- Fork the repository and use a feature branch.
+- Submit a pull request with your proposed changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+## Acknowledgements
+
+- `Streamlit`
+- `Plotly`
+- `Pandas`
+- `Openpyxl`
 
