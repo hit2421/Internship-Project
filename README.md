@@ -14,13 +14,14 @@ This project performs comprehensive sales data analysis using Python, Excel, and
 
 ## Project Structure
 
-
-├── main.py                  # The main script to run the application
-├── requirements.txt         # List of Python dependencies
+ ```
+├── app.py                  # The main script to run the application
+├── requirement.txt         # List of Python dependencies
 ├── data                     # Directory to store input Excel files
-│   └── sales_data.xlsx      # Example Excel file with sales data
+│   └── Adidas.xlsx      # Example Excel file with sales data
 ├── README.md                # Project documentation
 └── .gitignore               # Git ignore file
+ ```
 
 # main.py Overview
 
