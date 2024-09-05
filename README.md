@@ -15,13 +15,15 @@ This project performs comprehensive sales data analysis using Python, Excel, and
 ## Project Structure
 
  ```
-├── app.py                  # The main script to run the application
-├── requirement.txt         # List of Python dependencies
-├── data                     # Directory to store input Excel files
-│   └── Adidas.xlsx      # Example Excel file with sales data
-├── README.md                # Project documentation
-└── .gitignore               # Git ignore file
- ```
+
+  ├── Adidas Sales Dashboard             
+      └── adidas-logo.jpg  # This image file contains the logo for the Adidas Sales Dashboard project. It is typically used for branding and visual representation in the application or documentation.
+      └── Adidas.xlsx      # This Excel file contains the sales data used by the application.
+      └── app.py           # The main script to run the application
+      └── requirement.txt  # List of Python dependencies
+  ├── README.md            # Project documentation
+  ├── .gitignore           # Git ignore file
+   ```
 
 # main.py Overview
 
@@ -66,7 +68,7 @@ To set up the project locally, follow these steps:
 2. **Install the dependencies:**
 
     ```
-    pip install -r requirements.txt
+    pip install -r requirement.txt
     ```
 
 3. **Run the application:**
