@@ -22,7 +22,6 @@ This project performs comprehensive sales data analysis using Python, Excel, and
       └── app.py           # The main script to run the application
       └── requirement.txt  # List of Python dependencies
   ├── README.md            # Project documentation
-  ├── .gitignore           # Git ignore file
    ```
 
 # main.py Overview
