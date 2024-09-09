@@ -61,6 +61,7 @@ To set up the project locally, follow these steps:
 
     ```
     git clone https://github.com/hit2421/Internship-Project.git
+    ls
     cd Adidas Sales Dashboard
     ```
 
