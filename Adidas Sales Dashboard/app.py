@@ -555,5 +555,35 @@ st.divider()
 # Display basic statistics
 st.header("Basic Statistics")
 st.write(df.describe())
+st.divider()
+
+st.header("First 5 rows of the DataFrame")
+st.write(df.head())
+st.divider()
+
+st.header("Last 5 rows of the DataFrame")
+st.write(df.tail())
+st.divider()
+
+st.header("Columns of the DataFrame")
+st.write(df.columns)
+st.divider()
+
+# Get the data types of each column
+st.header("Data type count by column")
+st.write(df.dtypes.value_counts())
+st.divider()
+
+st.header("Number of rows and columns of the DataFrame")
+st.write(df.shape)
+st.divider()
+
+st.header("Memory usage of each column")
+memory_usage = df.memory_usage(deep=True).sum() / (1024 * 1024)
+st.write(f"Memory usage: {memory_usage:.2f} MB")
+st.divider()
+
+st.header("Number of missing values in each column of the DataFrame")
+st.write(df.isnull().sum())
 
 
